@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: white;
+  font-family: "Russo One", sans-serif;
+}
+
+body {
+  background-color: #120f10;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* Barra de navegacion */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+nav img {
+  width: 50px;
+}
+
+/* Primera Seccion */
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1000px;
+  height: 520px;
+}
+
+.backgroundPoster {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -1%;
+  left: -1%;
+  background-position: center;
+  background-size: cover;
+  filter: blur(10px) brightness(50%);
+  z-index: -1;
+}
+
+.backgroundPage {
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(180deg, black 50%, transparent 100%);
+  mask-image: linear-gradient(180deg, black 50%, transparent 100%);
+}
+
+.rotation {
+  transform: translate(-262px, 256px) rotate(270deg);
+}
+
+strong {
+  color: #4fa684;
+}
+
+.tImagen {
+  width: 500px;
+  border-radius: 5px;
+}
+
+.infoCover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 50px;
+}
+
+section h2 {
+  font-size: 50px;
+  letter-spacing: 4px;
+}
+section h3 {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.bt1 {
+  background: #4fa684;
+  border-radius: 3px;
+  padding: 10px 35px;
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+.bt2 {
+  background: transparent;
+  border: 1px white solid;
+  border-radius: 3px;
+  padding: 10px 35px;
+  color: #ffffff;
+}
+
+/* stream */
+
+.stream {
+  margin-top: 30px;
+}
+
+.stream h2 {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.logosStream {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  margin-top: 35px;
+}
+
+.border {
+  border: 1px white solid;
+}
+
+/* Track List */
+
+.trackList {
+  margin-top: 30px;
+}
+
+.trackList h2 {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.song {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.song img {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rigth {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.lessBolder {
+  font-weight: 100;
+}
+
+/* Realeases */
+
+.releases {
+  margin-top: 30px;
+}
+
+.releases h2 {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.caratulas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.caratulas img {
+  width: 120px;
+  height: 120px;
+  margin: 12px;
+}
+
+.titulosCancion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulosCancion h5 {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.titulosCancion span {
+  font-weight: 100;
+  font-size: 10px;
+}
+
+/* bottom */
+
+.bottom {
+  height: 200px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px white solid;
+  border-bottom: 1px white solid;
+}
+
+.bottom li {
+  text-decoration: none;
+  list-style: none;
+}
